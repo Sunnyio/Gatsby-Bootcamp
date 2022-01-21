@@ -1,3 +1,21 @@
-.link {
+.nav-item {
     color: #999999;
+    font-size: .9rem;
+    margin-right: 1.3rem;
+    text-decoration: none;
+}
+
+.title {
+    color: #000000;
+    font-size: 3rem;
+    text-decoration: none;
+}
+.header {
+    padding: 1rem 0rem 3rem;
+}
+
+.nav-list{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
 }

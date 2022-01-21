@@ -4,14 +4,18 @@ import * as headerStyle from './header.module.scss'
 
 const Header = () => {
     return (
-        <header>
-            <h1>Hi my name is Sunny Kumar</h1>
+        <header className={headerStyle.header}>
+            <h1>
+                <Link className={headerStyle.title} to="/">
+                    Sunny Kumar
+                </Link>
+            </h1>
             <nav>
-                <ul>
-                    <li><Link className={headerStyle.link} to="/">Home</Link></li>
-                    <li><Link to="/about">About</Link></li>
-                    <li><Link to="/contact">Contact</Link></li>
-                    <li><Link to="/blog">Blogs</Link></li>
+                <ul className={headerStyle.navList}>
+                    <li><Link className={headerStyle.navItem} to="/">Home</Link></li>
+                    <li><Link className={headerStyle.navItem} to="/about">About</Link></li>
+                    <li><Link className={headerStyle.navItem} to="/contact">Contact</Link></li>
+                    <li><Link className={headerStyle.navItem} to="/blog">Blogs</Link></li>
                 </ul>
             </nav>
         </header>
