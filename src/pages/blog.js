@@ -20,7 +20,7 @@ const BlogPage = () => {
 
     return (
         <Layout>
-            <h1>Welcome to my Blogs</h1>
+            <h1>Welcome to My Blogs</h1>
             <hr />
             <ol>
                 {
